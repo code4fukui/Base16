@@ -1,8 +1,15 @@
 const encode = (bin) => {
   const s = [];
-  for (let i = 0; i < bin.length; i++) {
-    const n = bin[i].toString(16);
-    s.push(n.length === 1 ? "0" + n : n);
+  if (typeof bin == "string") {
+    for (let i = 0; i < bin.length; i++) {
+      const n = (bin.charCodeAt(i) & 0xff).toString(16);
+      s.push(n.length === 1 ? "0" + n : n);
+    }
+  } else {
+    for (let i = 0; i < bin.length; i++) {
+      const n = bin[i].toString(16);
+      s.push(n.length === 1 ? "0" + n : n);
+    }
   }
   return s.join("");
 };
