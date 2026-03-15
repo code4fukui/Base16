@@ -1,4 +1,7 @@
 # Base16
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Base16 library and ES module for web and [Deno](https://deno.land).
 
 ## Demo

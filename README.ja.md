@@ -1,11 +1,9 @@
 # Base16
-Base16は、web及び[Deno](https://deno.land)で使用できるライブラリおよびESモジュールです。
 
-## デモ
-https://code4fukui.github.io/Base16/
+Base16は、webおよび[Deno](https://deno.land)で使用できるBase16エンコーディング/デコーディングライブラリおよびESモジュールです。
 
 ## 機能
-- Base16エンコーディングとデコーディング
+- Base16でのエンコーディングとデコーディング
 - Uint8Arrayと文字列に対応
 
 ## 使い方
