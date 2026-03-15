@@ -1,14 +1,14 @@
 # Base16
-Base16 library and ES module for web and [Deno](https://deno.land).
+Base16は、web及び[Deno](https://deno.land)で使用できるライブラリおよびESモジュールです。
 
-## Demo
+## デモ
 https://code4fukui.github.io/Base16/
 
-## Features
-- Base16 encoding and decoding
-- Works with Uint8Array and strings
+## 機能
+- Base16エンコーディングとデコーディング
+- Uint8Arrayと文字列に対応
 
-## Usage
+## 使い方
 ```js
 import { Base16 } from "https://code4fukui.github.io/Base16/Base16.js";
 
@@ -19,10 +19,10 @@ console.log(Base16.encode(new TextEncoder().encode("IchigoJam")));
 console.log(new TextDecoder().decode(Base16.decode("49636869676f4a616d")));
 ```
 
-## Test
+## テスト
 ```
 deno test
 ```
 
-## License
+## ライセンス
 MIT
