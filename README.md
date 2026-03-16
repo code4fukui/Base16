@@ -2,10 +2,10 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-Base16 library and ES module for web and [Deno](https://deno.land).
+Base16 is a library and ES module for web and [Deno](https://deno.land) that provides Base16 encoding and decoding functionality.
 
 ## Demo
-https://code4fukui.github.io/Base16/
+The demo is available at https://code4fukui.github.io/Base16/
 
 ## Features
 - Base16 encoding and decoding
@@ -23,9 +23,10 @@ console.log(new TextDecoder().decode(Base16.decode("49636869676f4a616d")));
 ```
 
 ## Test
+Run the tests with:
 ```
 deno test
 ```
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
